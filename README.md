@@ -26,14 +26,14 @@ A full-stack collaborative tool for managing team projects, tasks, and communica
 ## 🛠️ Tech Stack
 
 **Frontend:**  
-- React / Next.js / Tailwind CSS (or your stack)
+- HTML/ EJS / CSS / JS / Bootstrap / Tailwind CSS
 
 **Backend:**  
 - Node.js / Express / MongoDB (or your stack)  
 - WebSockets (e.g., Socket.io) for real-time updates
 
 **Authentication:**  
-- JWT / OAuth (specify what you used)
+- Express-Session
 
 ---
 
