@@ -43,4 +43,4 @@ A full-stack collaborative tool for managing team projects, tasks, and communica
 
 ```bash
 git clone https://github.com/Tejas584/codealpha_tasks-Project-Management-Tool.git
-cd project-management-tool
+cd codealpha_tasks-Project-Management-Tool
