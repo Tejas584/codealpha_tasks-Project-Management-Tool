@@ -1,0 +1,14 @@
+<ul class="list-group">
+  <% comments.forEach(comment => { %>
+    <li class="list-group-item">
+      <div class="d-flex align-items-center mb-1">
+        <i class="fa-solid fa-user-circle me-2" style="color:#7c3aed;"></i>
+        <strong><%= comment.author.username %></strong>
+        <span class="ms-2 text-muted small"><%= comment.createdAt.toLocaleString() %></span>
+      </div>
+      <div><%= comment.text %></div>
+    </li>
+  <% }) %>
+</ul>
+
+<link rel="stylesheet" href="/css/custom.css"> 

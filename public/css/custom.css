@@ -1,0 +1,29 @@
+/* Custom button hover effects */
+.purple-btn {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.purple-btn:hover, .purple-btn:focus {
+  background: #5b21b6;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.15);
+}
+.btn-outline-secondary {
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:focus {
+  background: #ede9fe;
+  color: #7c3aed;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.10);
+}
+.btn-outline-success, .btn-outline-warning, .btn-outline-danger {
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.btn-outline-success:hover, .btn-outline-warning:hover, .btn-outline-danger:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.btn:active {
+  transform: scale(0.97);
+} 
